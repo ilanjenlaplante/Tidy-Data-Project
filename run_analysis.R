@@ -47,4 +47,4 @@ tidy_data_set <- arrange(tidy_data_set, Subject, Activity)
 
 ##Writes the output tidy dataset to a .txt file
 write.table(tidy_data_set, file = "./final-tidy-data.txt", append = FALSE, sep = " ", dec = ".",
-            row.names = TRUE, col.names = TRUE)
+            row.names = FALSE, col.names = TRUE)
